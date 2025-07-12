@@ -89,7 +89,8 @@ body {
 /* service styles */
 #service,
 #story,
-#country {
+#country,
+#footer-container {
   width: 87.5%;
   margin: 0px auto 120px auto;
 }
@@ -139,12 +140,31 @@ img {
 }
 
 /* contry styles */
+.btn-card {
+  text-align: center;
+  margin-top: 60px;
+}
 #country-card-container {
   display: flex;
   gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 #country-card-container h2 {
   background-color: white;
   padding: 40px;
   border-radius: 16px;
+}
+/* footer section */
+
+#footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-card h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer-icon img {
+  margin-right: 32px;
 }
