@@ -18,6 +18,9 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
+.btn:hover{
+  background-color: yellowgreen;
+}
 
 .btn-white {
   border-radius: 30px;
@@ -41,7 +44,7 @@ body {
   align-items: center;
 }
 .banner-content {
-  width: 60%;
+  width: 50%;
 }
 .banner-content * {
   margin-bottom: 36px;
@@ -58,4 +61,7 @@ body {
 
 .banner-content h1 span {
   color: #f411cf;
+}
+.banner-image img{
+  width: 600px;
 }
