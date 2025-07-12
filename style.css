@@ -87,7 +87,8 @@ body {
 }
 
 /* service styles */
-#service {
+#service,
+#story {
   width: 87.5%;
   margin: 0px auto 120px auto;
 }
@@ -116,4 +117,22 @@ body {
   font-size: 18px;
   font-weight: 500;
   color: #a8a8a8;
+}
+/* story styles */
+.story-card {
+  display: flex;
+  background-color: white;
+  padding: 48px;
+  border-radius: 24px;
+  gap: 32px;
+}
+.story-content h2,
+img {
+  margin-bottom: 20px;
+}
+.story-content p {
+  margin-bottom: 46px;
+}
+.story-content button {
+  margin-bottom: 58px;
 }
