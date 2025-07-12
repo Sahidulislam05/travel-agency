@@ -18,8 +18,11 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
-.btn:hover{
+.btn:hover {
   background-color: yellowgreen;
+}
+.btn-white:hover {
+  background-color: blanchedalmond;
 }
 
 .btn-white {
@@ -30,6 +33,23 @@ body {
   margin-right: 10px;
   font-size: 14px;
   font-weight: bold;
+}
+/* globally use */
+.heading-content {
+  text-align: center;
+}
+.heading-content h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f411cf;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.heading-content h2 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 60px;
 }
 #banner {
   margin: 100px auto 120px auto;
@@ -62,6 +82,38 @@ body {
 .banner-content h1 span {
   color: #f411cf;
 }
-.banner-image img{
+.banner-image img {
   width: 600px;
+}
+
+/* service styles */
+#service {
+  width: 87.5%;
+  margin: 0px auto 120px auto;
+}
+#service-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.service-card {
+  background-color: white;
+  padding: 60px;
+  text-align: center;
+  width: 300px;
+  border-radius: 30px;
+}
+.service-card img {
+  margin-bottom: 60px;
+}
+.service-card h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.service-card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #a8a8a8;
 }
