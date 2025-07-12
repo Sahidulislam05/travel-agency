@@ -88,7 +88,8 @@ body {
 
 /* service styles */
 #service,
-#story {
+#story,
+#country {
   width: 87.5%;
   margin: 0px auto 120px auto;
 }
@@ -135,4 +136,15 @@ img {
 }
 .story-content button {
   margin-bottom: 58px;
+}
+
+/* contry styles */
+#country-card-container {
+  display: flex;
+  gap: 25px;
+}
+#country-card-container h2 {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
 }
